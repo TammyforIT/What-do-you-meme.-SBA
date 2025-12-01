@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="Style">About Us</h1>
+    <p>meme</p>
+
+    <img src="image.png" alt="Another Image">
+
+    <a href="index.html">Home</a> |
+    <a href="contact.html">Contact</a>
+  </div>
+</body>
+</html>

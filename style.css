@@ -1,0 +1,105 @@
+/* External CSS */
+/* External CSS file (style.css) */
+
+/* Reset */
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* light blue */
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header */
+header {
+  background-color: #ff6600; /* orange */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Navigation (dropdown menu styling) */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+nav ul li:hover ul {
+  display: block;
+}
+
+/* Table */
+table {
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+table, th, td {
+  border: 1px solid #333;
+  padding: 8px;
+}
+
+/* Forms */
+form {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Images and GIFs */
+img, .gif {
+  width: 200px;
+  margin: 10px;
+}
+
+/* Flexbox container */
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+/* Animations */
+.fade {
+  animation: fadeIn 2s;
+}
+
+.bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-15px); }
+}
+
